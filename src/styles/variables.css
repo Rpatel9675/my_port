@@ -1,0 +1,69 @@
+:root {
+  /* Primary Colors - Modern Deep Blue to Vibrant Cyan Gradient */
+  --primary: #2563EB;
+  /* Vibrant Blue */
+  --primary-light: #3B82F6;
+  /* Lighter Blue */
+  --primary-dark: #1E40AF;
+  /* Deep Blue */
+
+  /* Secondary Colors - Teal/Emerald Accent */
+  --secondary: #14B8A6;
+  /* Teal */
+  --secondary-light: #2DD4BF;
+  /* Light Teal */
+
+  /* Accent Colors - Warm Orange for CTAs */
+  --accent: #F59E0B;
+  /* Amber/Orange */
+  --accent-light: #FBBF24;
+  /* Light Amber */
+
+  /* Background Colors - Clean & Modern */
+  --bg-body: #F8FAFC;
+  /* Slight Blue-Gray Tint */
+  --bg-surface: #FFFFFF;
+  /* Pure White */
+  --bg-light: #F1F5F9;
+  /* Light Gray-Blue */
+  --bg-dark: #0F172A;
+  /* Very Dark Blue (for dark sections) */
+
+  /* Text Colors - High Contrast */
+  --text-main: #0F172A;
+  /* Almost Black with Blue Tint */
+  --text-muted: #64748B;
+  /* Muted Gray */
+  --text-light: #94A3B8;
+  /* Light Gray */
+  --text-white: #FFFFFF;
+  /* Pure White */
+
+  /* Shadows - Enhanced for depth */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-colored: 0 10px 40px -10px rgba(37, 99, 235, 0.3);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+}

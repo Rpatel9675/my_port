@@ -1,0 +1,134 @@
+﻿
+> rocky@0.0.0 lint
+> eslint .
+
+
+D:\Desktop\AntiGravity\rocky\server\config\db.js
+   1:18  error  'require' is not defined  no-undef
+   5:45  error  'process' is not defined  no-undef
+  10:9   error  'process' is not defined  no-undef
+  14:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\controllers\appointmentController.js
+   1:21  error  'require' is not defined  no-undef
+   2:18  error  'require' is not defined  no-undef
+  48:17  error  'process' is not defined  no-undef
+  49:21  error  'process' is not defined  no-undef
+  66:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\controllers\authController.js
+    1:14  error  'require' is not defined  no-undef
+    2:13  error  'require' is not defined  no-undef
+    5:29  error  'process' is not defined  no-undef
+  123:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\middleware\authMiddleware.js
+   1:13  error  'require' is not defined  no-undef
+   2:14  error  'require' is not defined  no-undef
+  14:47  error  'process' is not defined  no-undef
+  41:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\models\Appointment.js
+   1:18  error  'require' is not defined  no-undef
+  44:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\models\Prescription.js
+   1:18  error  'require' is not defined  no-undef
+  40:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\models\User.js
+   1:18  error  'require' is not defined  no-undef
+   2:16  error  'require' is not defined  no-undef
+  57:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\routes\appointmentRoutes.js
+   1:17  error  'require' is not defined  no-undef
+   3:70  error  'require' is not defined  no-undef
+   4:21  error  'require' is not defined  no-undef
+  10:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\routes\authRoutes.js
+   1:17  error  'require' is not defined  no-undef
+   3:71  error  'require' is not defined  no-undef
+   4:21  error  'require' is not defined  no-undef
+  12:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\routes\chatbotRoutes.js
+   1:17  error  'require' is not defined  no-undef
+  26:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\routes\doctorRoutes.js
+   1:17  error  'require' is not defined  no-undef
+   3:28  error  'require' is not defined  no-undef
+   4:21  error  'require' is not defined  no-undef
+   5:14  error  'require' is not defined  no-undef
+  22:1   error  'module' is not defined   no-undef
+
+D:\Desktop\AntiGravity\rocky\server\server.js
+   1:17  error  'require' is not defined          no-undef
+   2:16  error  'require' is not defined          no-undef
+   3:14  error  'require' is not defined          no-undef
+   4:19  error  'require' is not defined          no-undef
+  16:22  error  'require' is not defined          no-undef
+  17:30  error  'require' is not defined          no-undef
+  18:24  error  'require' is not defined          no-undef
+  19:25  error  'require' is not defined          no-undef
+  26:25  error  'next' is defined but never used  no-unused-vars
+  31:16  error  'process' is not defined          no-undef
+  35:14  error  'process' is not defined          no-undef
+  38:38  error  'process' is not defined          no-undef
+
+D:\Desktop\AntiGravity\rocky\src\components\Chatbot.jsx
+  21:18  error  'error' is defined but never used  no-unused-vars
+
+D:\Desktop\AntiGravity\rocky\src\components\EmergencyButton.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Desktop\AntiGravity\rocky\src\components\HeroSection.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Desktop\AntiGravity\rocky\src\components\Projects.jsx
+   3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  93:57  error  'index' is defined but never used                                              no-unused-vars
+
+D:\Desktop\AntiGravity\rocky\src\components\Skills.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Desktop\AntiGravity\rocky\src\pages\Portal.jsx
+  31:13  error  Error: Cannot access variable before it is declared
+
+`fetchAppointments` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  29 |             setUserInfo(user);
+  30 |             setFormData(prev => ({ ...prev, ...user }));
+> 31 |             fetchAppointments();
+     |             ^^^^^^^^^^^^^^^^^ `fetchAppointments` accessed before it is declared
+  32 |         }
+  33 |     }, []);
+  34 |
+
+  33 |     }, []);
+  34 |
+> 35 |     const fetchAppointments = async () => {
+     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |         try {
+     | ^^^^^^^^^^^^^
+> 37 |             const { data } = await getMyAppointments();
+     | ^^^^^^^^^^^^^
+> 38 |             setAppointments(data);
+     | ^^^^^^^^^^^^^
+> 39 |         } catch (error) {
+     | ^^^^^^^^^^^^^
+> 40 |             console.error("Error fetching appointments", error);
+     | ^^^^^^^^^^^^^
+> 41 |         }
+     | ^^^^^^^^^^^^^
+> 42 |     };
+     | ^^^^^^^ `fetchAppointments` is declared here
+  43 |
+  44 |     const handleChange = (e) => {
+  45 |         setFormData({ ...formData, [e.target.name]: e.target.value });  react-hooks/immutability
+  85:18  error  'error' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        no-unused-vars
+
+Γ£û 59 problems (59 errors, 0 warnings)
+
