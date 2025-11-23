@@ -1,0 +1,60 @@
+:root {
+  /* Premium Color Palette */
+  --color-primary: #0ea5e9;
+  /* Sky 500 */
+  --color-primary-dark: #0284c7;
+  /* Sky 600 */
+  --color-secondary: #14b8a6;
+  /* Teal 500 */
+  --color-accent: #f43f5e;
+  /* Rose 500 */
+
+  /* Light Theme */
+  --color-bg-light: #f8fafc;
+  /* Slate 50 */
+  --color-surface-light: #ffffff;
+  --color-text-light: #0f172a;
+  /* Slate 900 */
+  --color-text-muted-light: #475569;
+  /* Slate 600 */
+
+  /* Dark Theme */
+  --color-bg-dark: #0f172a;
+  /* Slate 900 */
+  --color-surface-dark: #1e293b;
+  /* Slate 800 */
+  --color-text-dark: #f1f5f9;
+  /* Slate 100 */
+  --color-text-muted-dark: #94a3b8;
+  /* Slate 400 */
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #0ea5e9 0%, #14b8a6 100%);
+  --gradient-dark: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+
+  /* Typography */
+  --font-primary: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Playfair Display', serif;
+
+  /* Spacing & Layout */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Effects */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-glow: 0 0 20px rgba(14, 165, 233, 0.3);
+
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.2);
+  --glass-backdrop: blur(12px);
+}
+
+[data-theme='dark'] {
+  --glass-bg: rgba(30, 41, 59, 0.7);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+}

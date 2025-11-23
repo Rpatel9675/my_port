@@ -1,0 +1,183 @@
+{
+    "personal_details": {
+        "full_name": "Rocky Patel",
+        "date_of_birth": "January 1",
+        "phone": "+91 7357577247",
+        "emails": [
+            "pprl735757@gmail.com",
+            "rocky7061patel@gmail.com",
+            "rocky2001patel@gmail.com"
+        ],
+        "location": "Kolkata, West Bengal, India",
+        "address": "4A, Prantika Apartment, Maheshbathan, Kolkata - 700102",
+        "headline": "Embedded Systems & Full-Stack Developer | Android Automotive IVI | BSP | C/C++ | React | Node.js"
+    },
+    "profiles": {
+        "portfolio": "https://rpatel9675.github.io/rocky/",
+        "linkedin": "https://www.linkedin.com/in/rocky-patel-eee",
+        "github": "https://github.com/Rpatel9675",
+        "leetcode": "https://leetcode.com/u/Rpatel9675/",
+        "geeksforgeeks": "https://www.geeksforgeeks.org/user/pprl735757/",
+        "instagram": "https://www.instagram.com/r0k_i7/"
+    },
+    "education": [
+        {
+            "degree": "B.Tech — Electrical & Electronics Engineering",
+            "institute": "Institute of Engineering & Management, Kolkata",
+            "year": "2021 – 2025",
+            "cgpa": "8.5 – 8.54"
+        },
+        {
+            "qualification": "Intermediate",
+            "institute": "Daudnagar College",
+            "year": "2018 – 2020",
+            "percentage": "70.4%"
+        },
+        {
+            "qualification": "Matriculation",
+            "institute": "Haspura High School"
+        }
+    ],
+    "experience": [
+        {
+            "role": "Software Engineer 1",
+            "company": "Visteon Technical & Services Centre Pvt Ltd",
+            "location": "Kolkata, India",
+            "start": "Aug 2025",
+            "description": "Android Automotive IVI, Embedded Linux, USB Validation, BSP development"
+        },
+        {
+            "role": "Software Development Intern",
+            "company": "Visteon Corporation",
+            "duration": "Jan 2025 – Jun 2025",
+            "key_work": [
+                "USB validation for Skoda IVI platform",
+                "Linux kernel IPC",
+                "USB descriptors & enumeration",
+                "g_zero, usbtest module testing"
+            ]
+        },
+        {
+            "role": "Industrial Automation Intern",
+            "company": "SMS Group",
+            "duration": "Jul 2023 – Jun 2024",
+            "key_work": [
+                "PLC programming in Siemens TIA Portal",
+                "Conveyor sorting automation project"
+            ]
+        },
+        {
+            "role": "Web Development Intern",
+            "company": "EiSystems Technologies",
+            "duration": "Mar – May 2024",
+            "key_work": [
+                "Authentication system",
+                "Performance optimization",
+                "Responsive UI development"
+            ]
+        },
+        {
+            "role": "Project Leader",
+            "company": "Innovate-X",
+            "duration": "Mar 2022 – May 2023",
+            "projects": [
+                "Apna-Desh",
+                "Aashiyana",
+                "HomeHevan (Airbnb clone)"
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "C",
+            "C++",
+            "Python",
+            "Java",
+            "Kotlin",
+            "JavaScript",
+            "SQL"
+        ],
+        "embedded_systems": [
+            "Android Automotive IVI",
+            "BSP Development",
+            "Embedded Linux",
+            "USB Protocols",
+            "SPI, I2C, UART",
+            "Device Trees",
+            "Kernel IPC"
+        ],
+        "web_development": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "MySQL",
+            "REST APIs",
+            "Bootstrap"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Docker",
+            "WSL",
+            "Jira",
+            "Siemens TIA Portal",
+            "SolidWorks",
+            "Arduino"
+        ]
+    },
+    "projects": [
+        {
+            "name": "Smart Embedded Automotive System",
+            "type": "Embedded / Automotive",
+            "tech_stack": "Embedded C, Linux",
+            "features": [
+                "Braking system",
+                "Cruise control",
+                "Fuel optimisation",
+                "Adaptive cruise",
+                "Wiper control"
+            ],
+            "github": "Available in Rocky's GitHub repositories"
+        },
+        {
+            "name": "Wanderlust",
+            "type": "Full-stack web app",
+            "tech_stack": "HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, Google Maps API",
+            "github": "github.com/Rpatel9675/Wanderlust"
+        },
+        {
+            "name": "Robotics Hand Gripper",
+            "type": "Robotics",
+            "tech_stack": "3D printing, SolidWorks, Arduino",
+            "description": "Electromechanical robotic hand with 3D printed body and servo control"
+        },
+        {
+            "name": "HomeHevan (Airbnb clone)",
+            "type": "Full-stack",
+            "tech_stack": "HTML, CSS, JS, Node.js, EJS",
+            "description": "Complete rental property solution with authentication and listing system"
+        },
+        {
+            "name": "Apna-Desh & Aashiyana",
+            "type": "Web apps",
+            "description": "Social contribution & NGO support platforms"
+        }
+    ],
+    "achievements": [
+        "LeetCode Rating: ~1750 – 1850",
+        "HackerRank: 5★ in C++, 4★ in Python",
+        "Taapmaan Competition Winner",
+        "IEM Hack participation"
+    ],
+    "certifications": [
+        "Data Structures & Algorithm Specialization — UC San Diego (Coursera)",
+        "Developing Back-End Apps with Node.js & Express — IBM / Coursera",
+        "C for Everyone: Programming Fundamentals — Coursera",
+        "Getting Started with Data Analytics on AWS — Coursera"
+    ]
+}
